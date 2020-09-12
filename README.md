@@ -20,22 +20,22 @@ The description of the structure and extra information about each _resource_ sto
 
 #### Projects
 
-| Field       | Data Type | Metadata                                                                    |
-| ----------- | --------- | --------------------------------------------------------------------------- |
-| id          | number    | no need to provide it when creating projects, the database will generate it |
-| name        | string    | required.                                                                   |
-| description | string    | required.                                                                   |
-| completed   | boolean   | used to indicate if the project has been completed, not required            |
+| Field | Data Type | Metadata |
+| --- | --- | --- |
+| id | number | no need to provide it when creating projects, the database will generate it |
+| name | string | required. |
+| description | string | required. |
+| completed | boolean | used to indicate if the project has been completed, not required |
 
 #### Actions
 
-| Field       | Data Type | Metadata                                                                                         |
-| ----------- | --------- | ------------------------------------------------------------------------------------------------ |
-| id          | number    | no need to provide it when creating posts, the database will automatically generate it.          |
-| project_id  | number    | required, must be the id of an existing project.                                                 |
-| description | string    | up to 128 characters long, required.                                                             |
-| notes       | string    | no size limit, required. Used to record additional notes or requirements to complete the action. |
-| completed   | boolean   | used to indicate if the action has been completed, not required                                  |
+| Field | Data Type | Metadata |
+| --- | --- | --- |
+| id | number | no need to provide it when creating posts, the database will automatically generate it. |
+| project_id | number | required, must be the id of an existing project. |
+| description | string | up to 128 characters long, required. |
+| notes | string | no size limit, required. Used to record additional notes or requirements to complete the action. |
+| completed | boolean | used to indicate if the action has been completed, not required |
 
 ### Database Persistence Helpers
 
@@ -58,15 +58,7 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 ## Interview Questions
 
-Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
-
-1. The core features of Node.js and Express and why they are useful.
-1. Understand and explain the use of Middleware?
-1. The basic principles of the REST architectural style.
-1. Understand and explain the use of Express Routers.
-1. Describe tooling used to manually test the correctness of an API.
-
-You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
+See q&a.text
 
 ## Instructions
 
